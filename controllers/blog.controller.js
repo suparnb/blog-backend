@@ -6,7 +6,7 @@ var uuid = require('uuid');
 
 module.exports = {
   /* Methods :
-  1. Create a Review
+  1. Create a Review for the blog
   2. Get all Reviews
   3. Get a specific Review
   4. Delete a Review
@@ -29,7 +29,7 @@ module.exports = {
       }
   },
 
-  /* View All Review */
+  /* View All Reviews */
   getAllReview: async (req, res) => {
     try {
       var promises = [];
