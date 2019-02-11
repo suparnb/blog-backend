@@ -1,4 +1,4 @@
-/* Initialize redis and create connection */
+/*  Initialize redis and create connection */
 const config = require("./../configuration/env");
 const Redis = require("ioredis");
 client = new Redis(config.REDIS_PORT, config.REDIS_SERVER);
@@ -48,7 +48,7 @@ module.exports = {
     }
   },
   
-  /* View Review Details */
+  /*  View Review Details */
   getReview: async (req, res) => {
     const id = req.params.reviewid;
     try {
