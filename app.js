@@ -7,7 +7,6 @@ const express = require("express"),
   morgan = require('morgan');
  
 const config = require("./configuration/env");
-
 const app = express();
 
 /* Better security of the blog app */
